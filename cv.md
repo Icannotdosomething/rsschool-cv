@@ -35,4 +35,6 @@ function solution(str, ending){
 
 ## Education
 
+Kuban State Technological University (1992-1997)
+
 ## Languages
