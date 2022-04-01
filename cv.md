@@ -9,12 +9,19 @@
 * Languages
 
 # About myself
+
+OK. Hi. My name is Olga. I am forty six years old. I do not like working. I do not work last fifteen years. I like to learn. And now I want to learn Front-End Development in RSSchool! So I start studying the RS Schools Course «JavaScript/Front-end. Stage 0» (in progress). Be healty!!
+
 ## Contacts
+
 ## Skills
+
+### HTML5, CSS3
+### JavaScript Basics
+### Git, GitHub
+### VS Code
+
 ## Code example
-## Work experience
-## Education
-## Languages
 
 ```
 function solution(str, ending){
@@ -23,3 +30,9 @@ function solution(str, ending){
     return str.slice(str.length - a) === ending;
 }
 ```
+
+## Work experience
+
+## Education
+
+## Languages
