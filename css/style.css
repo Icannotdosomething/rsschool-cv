@@ -7,10 +7,6 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 auto;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -20,32 +16,34 @@ body {
 }
 
 html {
-  margin: 15px;
+  margin: 0 15px;
 }
 
 .olga {
-  display: block;
-  width: 100px;
+  width: 150px;
   margin: 0 auto;
   border-radius: 20%;
+  margin-bottom: 20px;
 }
 
-.header {}
+.avatar {
+  border-radius: 30%;
+}
 
 .nav-list {
   display: flex;
-  justify-content: center;
-  list-style: none;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
-.nav-link {
+.nav-item {
   position: relative;
   padding: 0 10px;
   line-height: 20px;
-  /* font-size: 16px; */
   font-weight: 700;
   color: #49b449;
   text-decoration: none;
+  border: 1px solid #000;
 }
 
 .ipsum {
@@ -57,13 +55,18 @@ html {
   text-transform: capitalize;
 }
 
-.main-container {
+.container {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
+  width: 700px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.section {
-  width: 50%;
+section {
+  width: 250px;
+  /* background-color: tan; */
 }
 
 .about {
@@ -71,25 +74,6 @@ html {
   width: 600px;
   margin: 0 auto;
 }
-
-.container {
-  display: flex;
-  width: 700px;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.one {
-  display: flex;
-}
-
-.two {
-  display: flex;
-}
-
-.four {}
-
-footer {}
 
 @media (max-width: 768px) {
   .section {
